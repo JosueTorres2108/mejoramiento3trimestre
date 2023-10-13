@@ -45,10 +45,11 @@ body {
 
 .izquierda {
     width: 50%;
-    height: 75vh;
+    height: 50rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 #informacion-general {
@@ -56,6 +57,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 h2{
@@ -71,12 +73,13 @@ p {
 
 .derecha {
     width: 50%;
-    height: 100vh;
+    height: 60rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
     padding: 10px 70px;
+    position: relative;
 }
 
 li {
@@ -90,7 +93,6 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* flex-direction: column; */
 }
 
 footer p , footer a {
